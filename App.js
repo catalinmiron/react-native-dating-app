@@ -78,6 +78,7 @@ class Slider extends Component {
       scrollX: new Animated.Value(0)
     };
   }
+
   renderItem(item, i) {
     let inputRange = [
       (i - 2) * ITEM_SIZE,
@@ -106,7 +107,8 @@ class Slider extends Component {
             {
               scale: this.state.scrollX.interpolate({
                 inputRange: inputRange,
-                outputRange: [0.8, 1, 0.8, 1]
+                outputRange: [0.7, 1, 0.7, 1],
+                extrapolate: 'clamp'
               })
             }
           ]
@@ -126,7 +128,8 @@ class Slider extends Component {
                 {
                   translateY: this.state.scrollX.interpolate({
                     inputRange: inputRange,
-                    outputRange: [-ITEM_SIZE / 2, 0, -ITEM_SIZE / 2, 0]
+                    outputRange: [-ITEM_SIZE / 2, 0, -ITEM_SIZE / 2, 0],
+                    extrapolate: 'clamp'
                   })
                 }
               ]
@@ -154,13 +157,22 @@ class Slider extends Component {
               {
                 translateY: this.state.scrollX.interpolate({
                   inputRange: inputRange,
-                  outputRange: [height / 4, 0, 0, 0]
+                  outputRange: [height / 4, 0, 0, 0],
+                  extrapolate: 'clamp'
+                })
+              },
+              {
+                scale: this.state.scrollX.interpolate({
+                  inputRange: inputRange,
+                  outputRange: [0.85, 1, 0.85, 0.85],
+                  extrapolate: 'clamp'
                 })
               }
             ],
             opacity: this.state.scrollX.interpolate({
               inputRange: inputRange,
-              outputRange: [0, 1, 0, 0]
+              outputRange: [0, 1, 0, 0],
+              extrapolate: 'clamp'
             })
           }}>
           <Text
@@ -285,8 +297,8 @@ class AButton extends Component {
             flex: 1
           }}>
           <Defs>
-            <LinearGradient id="buttonGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-              <Stop offset="0" stopColor={this.props.color} stopOpacity=".9" />
+            <LinearGradient id="buttonGrad" x1="0%" y1="0%" x2="10%" y2="100%">
+              <Stop offset="0" stopColor={this.props.color} stopOpacity=".5" />
               <Stop offset="1" stopColor={this.props.color} stopOpacity="1" />
             </LinearGradient>
           </Defs>
