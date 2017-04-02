@@ -2,9 +2,7 @@
 
 __[Dating app](https://dribbble.com/shots/3382557-Dating-app) by [Vitaly Silkin](https://dribbble.com/colder)__
 
-
 Exponent: https://exp.host/@catalinmiron/react-native-dating-app
-
 
 [Placeholder](Insert image!!)
 
