@@ -14,6 +14,7 @@ Stack:
 - [React native](https://facebook.github.io/react-native/)
 - [Expo](http://expo.io)
 - [Create React Native App](https://github.com/react-community/create-react-native-app)
+- [Expo ExNavigation](https://github.com/expo/ex-navigation)
 
 ----
 
