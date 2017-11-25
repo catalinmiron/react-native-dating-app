@@ -1,3 +1,5 @@
+[![Code Sponsor](https://app.codesponsor.io/embed/jtMnZHip717gzMbuPAbeqRkC/catalinmiron/react-native-dating-app.svg)](https://app.codesponsor.io/link/jtMnZHip717gzMbuPAbeqRkC/catalinmiron/react-native-dating-app)
+
 ### React Native Dating app
 
 __[Dating app](https://dribbble.com/shots/3382557-Dating-app) by [Vitaly Silkin](https://dribbble.com/colder)__
