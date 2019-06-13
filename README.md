@@ -1,4 +1,8 @@
-[![Code Sponsor](https://app.codesponsor.io/embed/jtMnZHip717gzMbuPAbeqRkC/catalinmiron/react-native-dating-app.svg)](https://app.codesponsor.io/link/jtMnZHip717gzMbuPAbeqRkC/catalinmiron/react-native-dating-app)
+### Would you like to support me?
+
+<a href="https://www.buymeacoffee.com/catalinmiron" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
+
+----
 
 ### React Native Dating app
 
