@@ -1,47 +1,26 @@
-### Would you like to support me?
+### React Native Dating Application
 
-<a href="https://www.buymeacoffee.com/catalinmiron" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
-
-----
-
-### React Native Dating app
-
-__[Dating app](https://dribbble.com/shots/3382557-Dating-app) by [Vitaly Silkin](https://dribbble.com/colder)__
-
-Exponent: https://exp.host/@catalinmiron/react-native-dating-app
+A mobile application built to help you find the love of your life! 
+Built using React Native and deployed on Expo, this application is accessible for both Android and iOS devices.
 
 ![react-native-dating-app](https://cloud.githubusercontent.com/assets/2805320/24679653/81e88b3a-1996-11e7-9474-db82d5cb0e20.gif)
-
 
 ----
 
 Stack:
 
-- [React native](https://facebook.github.io/react-native/)
+- [React Native](https://facebook.github.io/react-native/)
 - [Expo](http://expo.io)
 - [Create React Native App](https://github.com/react-community/create-react-native-app)
-- [Expo ExNavigation](https://github.com/expo/ex-navigation)
+- [Expo Ex-Navigation](https://github.com/expo/ex-navigation)
 
 ----
-
-![Aristotle](http://images.gr-assets.com/authors/1390143800p2/2192.jpg)
-> “For the things we have to learn before we can do them, we learn by doing them.”
-
-― Aristotle, The Nicomachean Ethics
-
-
---------------------
-
-
-This project was bootstrapped with [Create React Native App](https://github.com/react-community/create-react-native-app).
-
-Below you'll find information about performing common tasks. The most recent version of this guide is available [here](https://github.com/react-community/create-react-native-app/blob/master/react-native-scripts/template/README.md).
 
 ## Table of Contents
 
 * [Updating to New Releases](#updating-to-new-releases)
+* [Getting Started](#getting-started)
 * [Available Scripts](#available-scripts)
-  * [npm start](#npm-start)
   * [npm test](#npm-test)
   * [npm run ios](#npm-run-ios)
   * [npm run android](#npm-run-android)
@@ -70,15 +49,27 @@ Updating the `react-native-scripts` dependency of your app should be as simple a
 
 Upgrading to a new version of React Native requires updating the `react-native`, `react`, and `expo` package versions, and setting the correct `sdkVersion` in `app.json`. See the [versioning guide](https://github.com/react-community/create-react-native-app/blob/master/VERSIONS.md) for up-to-date information about package version compatibility.
 
+## Getting Started
+
+Clone the repository to your local code editor. 
+Use either HTTPS or SSH to clone the project files using git. 
+
+```git clone https://github.com/tylerwong1/react-native-dating-app.git```
+
+Once downloaded, cd into the project directory and install the proper node modules.
+
+`npm install`
+
+After installing the node modules, the application is ready to run.
+
+`npm start`
+
+Runs the application in development mode. A QR code will pop up allowing you to scan it with your mobile device. Make sure to have [Expo](https://expo.io) 
+installed and the QR code will open up the application. Any log messages and errors will show once the application is downloaded. To test any changes made to the app, save the changes in the local files and the app will recompile and load any edits.
+
 ## Available Scripts
 
 If Yarn was installed when the project was initialized, then dependencies will have been installed via Yarn, and you should probably use it to run these commands as well. Unlike dependency installation, command running syntax is identical for Yarn and NPM at the time of this writing.
-
-### `npm start`
-
-Runs your app in development mode.
-
-Open it in the [Expo app](https://expo.io) on your phone to view it. It will reload if you save edits to your files, and you will see build errors and logs in the terminal.
 
 #### `npm test`
 
